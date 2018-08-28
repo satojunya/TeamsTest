@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<script src='https://statics.teams.microsoft.com/sdk/v1.0/js/MicrosoftTeams.min.js'></script>
+
+<script type="text/javascript">  
+
+microsoftTeams.initialize();
+
+microsoftTeams.settings.setSettings({
+    entityId: "azuretest",
+    suggestedDisplayName: "azuretest",
+    contentUrl: "./index.html",
+    websiteUrl: "./index.html"
+});
+
+microsoftTeams.settings.setValidityState(true);
+
+</script>
+
+こちらは設定画面のウェブサイトです。
+</body>
+</html>
